@@ -1,6 +1,7 @@
 import { data } from "./data.js";
 import { companyCard } from "./component/companycard.js";
 import { headerCont } from "./component/header.js";
+import { hamContainer } from "./helper/hamheader.js";
 import { footerCont } from "./component/footer.js";
 
 const divroot = document.getElementById("root");
@@ -13,4 +14,5 @@ data.then((employee) => {
 });
 
 document.getElementById("header-container").appendChild(headerCont());
+document.getElementById("header-container").appendChild(hamContainer());
 document.getElementById("footer-container").appendChild(footerCont());
