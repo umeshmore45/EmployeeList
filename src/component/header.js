@@ -7,7 +7,7 @@ export const headerCont = () => {
           <ul class="navigation">
             <li class="items-links"><a href="#" > Home</a></li>
             <li class="items-links"><a href="#" > About</a></li>
-            <li class="items-links"><a href="#" > Contact-US</a></li>
+            <li class="items-links"><a href="#footer" > Contact-US</a></li>
           </ul>
         </nav>`;
   div.classList.add("header-contain");

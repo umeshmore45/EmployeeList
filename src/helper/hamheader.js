@@ -24,7 +24,7 @@ export const hamContainer = () => {
   const li2 = document.createElement("li");
   const a2 = document.createElement("a");
   a2.classList.add("menuLink");
-  a2.href = "#";
+  a2.href = "#footer";
   a2.innerHTML = "Contact";
   div.appendChild(button);
   div.appendChild(nav);
